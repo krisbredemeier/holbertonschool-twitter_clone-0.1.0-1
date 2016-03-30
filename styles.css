@@ -11,8 +11,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -23,7 +23,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -58,7 +58,7 @@ table {
 									Overall layout
 ----------------------------------------------------------------------------------------*/
 
-.body { 
+.body {
 	width: 992px;
 	height: auto;
 }
@@ -81,7 +81,7 @@ h1 {
 }
 
 h2 {
-	font-size: 30px;	
+	font-size: 30px;
 }
 
 h3 {
@@ -121,7 +121,7 @@ p {
 #container-header { /* Children divs for Flexbox are #logo, #tagline, #nav-div, #login */
 	background-image: url(header-image.jpg);
 	height: 170px;
-	display: flex; 
+	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 	flex-wrap: wrap;
@@ -212,7 +212,7 @@ p {
 
 /*----------------------------------------------------------------------------------------
 											Main
-----------------------------------------------------------------------------------------*/                                                                                                                             
+----------------------------------------------------------------------------------------*/
 /*----------------------------------------------------------------------------------------
 									Article & Aside text
 ----------------------------------------------------------------------------------------*/
@@ -222,7 +222,7 @@ p {
 	flex-direction: row;
 }
 
-#article { 
+#article {
 	width: 75%;
 	background-color: #e8e8e8;
     border-radius: 10px;
@@ -238,7 +238,7 @@ p {
 }
 
 /* Only for statuses-1.html */
-#article-extra-statuses  { 
+#article-extra-statuses  {
 	width: 100%;
 	background-color: #e8e8e8;
     border-radius: 10px;
@@ -263,7 +263,7 @@ p {
 /* Post a status div and reply div */
 .post-status-button-div, .button-reply, .hidden, #statuspost, .reply-form {
     text-align: center;
-    vertical-align: middle; 
+    vertical-align: middle;
     font-family: 'Josefin Sans', ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
     line-height: 140%;
     font-size: 13px;
@@ -272,7 +272,7 @@ p {
 /* Post a status button */
 #post-status-btn {
     text-align: center;
-    vertical-align: middle; 
+    vertical-align: middle;
     font-family: 'Josefin Sans', ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
     line-height: 140%;
     font-size: 13px;
@@ -325,7 +325,7 @@ p {
 
 /*----------------------------------------------------------------------------------------
 									Article & Aside pictures
-----------------------------------------------------------------------------------------*/ 
+----------------------------------------------------------------------------------------*/
 .article_img, .sophie_post {
 	display: block;
     width: 10%;
@@ -349,7 +349,7 @@ p {
 
 /*----------------------------------------------------------------------------------------
 									Footer
-----------------------------------------------------------------------------------------*/ 
+----------------------------------------------------------------------------------------*/
 .welcome {
 	display: flex;
 	position: fixed;
@@ -364,7 +364,7 @@ footer p {
 }
 
 /*---------------------------------------------------------------------------------------
-				Resizes for MEDIUM screens (width between 768px and 992px) 
+				Resizes for MEDIUM screens (width between 768px and 992px)
 ----------------------------------------------------------------------------------------*/
 @media only screen and (max-width: 992px) {
     body {
@@ -391,7 +391,7 @@ footer p {
     	flex-wrap: wrap;
     	justify-content: center;
     }
-/* End of Header */	
+/* End of Header */
 
 /* Main */
 	#container-main {  /* Container of #article and #aside */
@@ -410,7 +410,7 @@ footer p {
     	width: 80%;
         flex-direction: column;
     }
-    
+
     .notable_user
 
     .aside_img {
@@ -419,11 +419,11 @@ footer p {
     	float: left;
         margin: 10px;
     }
-/* End of Main */    
+/* End of Main */
 }
 
-/*--------------------------------------------------------------------------------------- 
-						Resizes for SMALL screens (max width 768px) 
+/*---------------------------------------------------------------------------------------
+						Resizes for SMALL screens (max width 768px)
 ----------------------------------------------------------------------------------------*/
 @media only screen and (max-width: 768px) {
     body {
